@@ -1,0 +1,21 @@
+{
+  "name": "servicios-acromatico",
+  "version": "1.0.0",
+  "description": "Servicios de acromático development",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Acromático Development",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "mongoose": "^5.3.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
